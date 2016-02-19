@@ -1,0 +1,83 @@
+[user]
+  email = haider1987@gmail.com
+  name = Fidel Añó
+
+[github]
+  user = fidelab
+
+[init]
+    templatedir = ~/.git_template
+
+[core]
+  editor = vim
+  # Treat spaces before tabs and all kinds of trailing whitespace as an error
+  # [default] trailing-space: looks for spaces at the end of a line
+  # [default] space-before-tab: looks for spaces before tabs at the beginning of a line
+  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[apply]
+  # Detect whitespace errors when applying a patch
+  whitespace = fix
+
+[color]
+  # Use colors in Git commands that are capable of colored output when
+  # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+  branch = auto
+  diff = auto
+  status = auto
+  ui = true
+  pager = true
+
+[push]
+  default = current
+
+[help]
+  # Automatically correct and execute mistyped commands
+  autocorrect = 1
+
+[alias]
+  # View the current working tree status
+  s = status
+  st = status
+  stat = status
+
+  # View the current working tree status using the short format
+  ss = status -s
+
+  # View log with pretty displaying
+  l = log --graph --pretty=format:'%C(red)%h%C(yellow)%d%Creset %s %C(green)- %an, %ar%Creset'
+
+  # View log with abbrev commits
+  ll = log --stat --abbrev-commit
+
+  # Count number of commits by authors
+  cc = shortlog -s -n --all
+
+  # Undo last commit
+  undo = reset --mixed HEAD~1
+  undo-soft = reset --soft HEAD~1
+  undo-hard = reset --hard HEAD~1
+
+  # Update, clean branches, cleanup unnecessary files and optimize the local repository
+  cleanup = !git fetch --all && git remote prune origin && git pull --all && git gc
+
+  # Cleanup plus removing untracked files and stash clear
+  cleanup-complete = !git fetch && git remote prune origin && git pull --all && git gc && git clean -df && git stash clear
+
+  # Fetch all from remote repository
+  fa = fetch --all
+
+  # Pull all remote branches locally added
+  pa = pull --all
+
+  # Show diff as a patch
+  show-patch = format-patch --stdout -1
+
+  # Amend the currently staged files to the latest commit
+  amend = commit --amend --reuse-message=HEAD
+
+[advice]
+  statusHints = true
+
+[mergetool]
+  keepBackup = false

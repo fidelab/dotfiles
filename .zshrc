@@ -87,14 +87,14 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='gvim'
 alias gvim="gvim 2>/dev/null"
 
- # oracle library                                                                
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/oracle/instantclient               
-export OCI_LIB_DIR=/opt/oracle/instantclient                                    
-export OCI_INC_DIR=/opt/oracle/instantclient/sdk/include                        
+ # oracle library
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/oracle/instantclient
+export OCI_LIB_DIR=/opt/oracle/instantclient
+export OCI_INC_DIR=/opt/oracle/instantclient/sdk/include
 export NLS_LANG=SPANISH_SPAIN.AL32UTF8
 
-export PATH=$PATH:/opt/node-v0.12.10-linux-x64/bin
-export PATH=$PATH:/opt/node-v0.12.10-linux-x64/node_modules/.bin
+export PATH=$PATH:/opt/node-v0.12.9-linux-x64/bin
+export PATH=$PATH:/opt/node-v0.12.9-linux-x64/node_modules/.bin
 
 mDecrypt() {
   openssl smime -decrypt -binary -in "$1" -inform DER -out "$2" -inkey ~/.ssh/crypto

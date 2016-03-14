@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.bash_ps
+!.bashrc
+!.git_template/*
+!.gitconfig
+!.jscsrc
+!.jshintrc
+!.tmux.conf
+!.tmuxinator/*
+!.vim/*
+!.zshrc

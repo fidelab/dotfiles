@@ -17,11 +17,11 @@
    * ENFORCING OPTIONS
    * =================
    */
-  
+
   // Force all variable names to use either camelCase style or UPPER_CASE
   // with underscores.
   "camelcase": true,
-  
+
   //requires you to always put curly braces around blocks in loops and conditionals
   "curly": true,
 

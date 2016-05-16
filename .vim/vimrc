@@ -113,7 +113,7 @@ endif
 set colorcolumn=80
 
 " ================ Highlights background text that goes over 80 limit  =========
-augroup vimrc_autocmds
-  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#111111
-  autocmd BufEnter * match OverLength /\%80v.*/
-augroup END
+"augroup vimrc_autocmds
+  "autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#111111
+  "autocmd BufEnter * match OverLength /\%80v.*/
+"augroup END

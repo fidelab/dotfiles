@@ -4,5 +4,3 @@ let NERDTreeDirArrows = 1
 let NERDTreeShowHidden = 1
 
 let g:NERDTreeWinSize = 30
-
-let NERDTreeMapOpenInTab='<ENTER>'

@@ -93,8 +93,8 @@ export OCI_LIB_DIR=/opt/oracle/instantclient
 export OCI_INC_DIR=/opt/oracle/instantclient/sdk/include
 export NLS_LANG=SPANISH_SPAIN.AL32UTF8
 
-export PATH=$PATH:/opt/node-v0.12.9-linux-x64/bin
-export PATH=$PATH:/opt/node-v0.12.9-linux-x64/node_modules/.bin
+#export PATH=$PATH:/opt/node-v4.4.6/bin
+#export PATH=$PATH:/opt/node-v4.4.6/node_modules/.bin
 
 mDecrypt() {
   openssl smime -decrypt -binary -in "$1" -inform DER -out "$2" -inkey ~/.ssh/crypto
@@ -108,4 +108,7 @@ mAesDecrypt() {
 alias openssl-aes-encrypt="mAesEncrypt"
 alias openssl-aes-decrypt="mAesDecrypt"
 alias openssl-rsa-decrypt="mDecrypt"
+
+export NVM_DIR="/home/fidel/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 

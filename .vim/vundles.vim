@@ -20,7 +20,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 " NERDTree and tabs together in Vim, painlessly
 Plugin 'jistr/vim-nerdtree-tabs'
-" Is a fast, as-you-type, fuzzy-search code completion engine 
+" Is a fast, as-you-type, fuzzy-search code completion engine
 "Plugin 'Valloric/YouCompleteMe'
 " Perform all your vim insert mode completions with Tab
 Plugin 'ervandew/supertab'
@@ -44,7 +44,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'mileszs/ack.vim'
 " NERDtree + ack.vim
 Plugin 'tyok/nerdtree-ack'
-" Vim motions on speed! 
+" Vim motions on speed!
 Plugin 'Lokaltog/vim-easymotion'
 " A parser for a condensed HTML format
 Plugin 'rstacruz/sparkup', {'rtp': 'vim'}
@@ -70,7 +70,7 @@ Plugin 'Shutnik/jshint2.vim'
 Plugin 'othree/html5.vim'
 " Vim/Ruby Configuration Files
 Plugin 'vim-ruby/vim-ruby'
-" Ruby on Rails power tools 
+" Ruby on Rails power tools
 Plugin 'tpope/vim-rails'
 " Vastly improved Javascript indentation and syntax support in Vim.
 Plugin 'pangloss/vim-javascript'
@@ -82,7 +82,7 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'groenewege/vim-less'
 " shows a git diff in the gutter (sign column) and stages/reverts hunks.
 Plugin 'airblade/vim-gitgutter'
-" Precision colors for machines and people 
+" Precision colors for machines and people
 Plugin 'altercation/vim-colors-solarized'
 " Syntax highlighting, matching rules and mappings for the original Markdown and extensions.
 Plugin 'plasticboy/vim-markdown'
@@ -106,6 +106,10 @@ Plugin 'mattn/gist-vim'
 Plugin 'rking/ag.vim'
 " A vim plugin that simplifies the transition between multiline and single-line code
 Plugin 'AndrewRadev/splitjoin.vim'
+" plugin of NERDTree showing git status flags
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+" Add CSS3 syntax support to Vim's built-in syntax/css.vim.
+Plugin 'hail2u/vim-css3-syntax'
 
 call vundle#end()
 filetype plugin indent on

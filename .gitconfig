@@ -59,7 +59,7 @@
   undo-hard = reset --hard HEAD~1
 
   # Update, clean branches, cleanup unnecessary files and optimize the local repository
-  cleanup = !git fetch --all && git remote prune origin && git pull --all && git gc
+  cleanup = !git fetch --all && git fetch --tags && git remote prune origin && git pull --all && git gc
 
   # Cleanup plus removing untracked files and stash clear
   cleanup-complete = !git fetch && git remote prune origin && git pull --all && git gc && git clean -df && git stash clear

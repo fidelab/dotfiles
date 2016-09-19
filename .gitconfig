@@ -90,3 +90,6 @@
 
 [mergetool]
   keepBackup = false
+
+[diff]
+  tool = meld

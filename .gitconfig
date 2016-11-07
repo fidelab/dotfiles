@@ -64,6 +64,9 @@
   # Cleanup plus removing untracked files and stash clear
   cleanup-complete = !git fetch && git remote prune origin && git pull --all && git gc && git clean -df && git stash clear
 
+  # Clean git repository objects and pack and else (CHANGE unwanted_folder FOR THE PROPER FOLDER)
+  repo-clean = !git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch unwanted_folder' --prune-empty && git gc --aggressive --prune
+
   # Fetch all from remote repository
   fa = fetch --all
 

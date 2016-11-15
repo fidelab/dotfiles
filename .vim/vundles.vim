@@ -110,6 +110,8 @@ Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 " Add CSS3 syntax support to Vim's built-in syntax/css.vim.
 Plugin 'hail2u/vim-css3-syntax'
+" Ask for confirmation before quitting Vim.
+Plugin 'confirm-quit'
 
 call vundle#end()
 filetype plugin indent on

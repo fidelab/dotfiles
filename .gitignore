@@ -13,3 +13,4 @@
 !.tmuxinator/*
 !.vim/*
 !.zshrc
+!.eslintrc

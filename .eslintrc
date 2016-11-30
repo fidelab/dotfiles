@@ -1,3 +1,7 @@
 {
-  "extends": "airbnb"
+  "extends": "airbnb",
+  "rules": {
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-param-reassign": ["error", { "props": false }]
+  }
 }

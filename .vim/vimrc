@@ -109,11 +109,11 @@ if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
 
-" ================ Set vertical lineat 80 char ==============
-set colorcolumn=80
+" ================ Set vertical lineat 100 char ==============
+set colorcolumn=100
 
 " ================ Highlights background text that goes over 80 limit  =========
 "augroup vimrc_autocmds
   "autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#111111
-  "autocmd BufEnter * match OverLength /\%80v.*/
+  "autocmd BufEnter * match OverLength /\%100v.*/
 "augroup END

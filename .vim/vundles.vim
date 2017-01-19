@@ -112,6 +112,8 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'hail2u/vim-css3-syntax'
 " Ask for confirmation before quitting Vim.
 Plugin 'confirm-quit'
+" highlights configuration files for nginx
+Plugin 'nginx.vim'
 
 call vundle#end()
 filetype plugin indent on

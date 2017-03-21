@@ -27,7 +27,8 @@ Plugin 'ervandew/supertab'
 " the File Manager within Vim!
 Plugin 'mbbill/VimExplorer'
 " uzzy file, buffer, mru, tag, etc finder.
-Plugin 'kien/ctrlp.vim'
+"Plugin 'kien/ctrlp.vim' DEPRECATED
+Plugin 'ctrlpvim/ctrlp.vim'
 " Replace a pattern across multiple files interactively
 Plugin 'vim-scripts/greplace.vim'
 " Vim plugin for intensely orgasmic commenting
@@ -114,6 +115,14 @@ Plugin 'hail2u/vim-css3-syntax'
 Plugin 'confirm-quit'
 " highlights configuration files for nginx
 Plugin 'nginx.vim'
+" Tools to make Vim superb for developing with Node.js
+Plugin 'moll/vim-node'
+" use CTRL-A/CTRL-X to increment dates, times, and more
+Plugin 'tpope/vim-speeddating'
+" This plugin provides a start screen for Vim
+Plugin 'mhinz/vim-startify'
+" adds filetype glyphs (icons) to other plugins such as NERDTree, vim-airline, CtrlP, powerline, unite, lightline.vim, vim-startify, vimfiler, and flagship.
+Plugin 'ryanoasis/vim-devicons'
 
 call vundle#end()
 filetype plugin indent on

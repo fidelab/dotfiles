@@ -8,9 +8,20 @@
 
 ` $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
+**3.** Install [dependencies](#dependencies)
+
 **3.** Launch vim and run `:PluginInstall`
 
 ## Dependencies
+
+#### Nerd fonts
+
+https://github.com/ryanoasis/nerd-fonts#option-1-install-script
+1. `mkdir -p ~/.local/share/fonts`
+2. `cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20for%20Powerline%20Nerd%20Font%20Complete.otf`
+
+#### eslint
+1. `npm i -g eslint`
 
 #### CoffeeLint
 
@@ -20,13 +31,6 @@
 3. Restart vim or run `:so ~/.vim/vimrc`
 
 `let g:syntastic_coffee_coffeelint_args = "--csv --file ~/.vim/syntax/coffeelint.json"`
-
-#### JSCS
-
-1. `npm install jscs -g`
-2. Move the file `.jscsrc` from the `syntax` folder to your home folder.
-3. Change variable `g:syntastic_javascript_checkers = ['jshint']` to `let g:syntastic_javascript_checkers = ['jscs']` on your `vimrc` file.
-4. Restart vim or run `:so ~/.vim/vimrc`
 
 #### Instant Markdown
 
@@ -77,7 +81,7 @@ Check plugins section on `vundles.vim` file for an extended list and a little ex
 + [Valloric/YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 + [ervandew/supertab](https://github.com/ervandew/supertab)
 + [mbbill/VimExplorer](https://github.com/mbbill/VimExplorer)
-+ [kien/ctrlp.vim](https://github.com/kien/ctrlp.vim)
++ [ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
 + [vim-scripts/greplace.vim](https://github.com/vim-scripts/greplace.vim)
 + [scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter)
 + [tpope/vim-repeat](https://github.com/tpope/vim-repeat)
@@ -117,4 +121,11 @@ Check plugins section on `vundles.vim` file for an extended list and a little ex
 + [mattn/gist-vim](https://github.com/mattn/gist-vim)
 + [rking/ag.vim](https://github.com/rking/ag.vim)
 + [AndrewRadev/splitjoin.vim](https://github.com/AndrewRadev/splitjoin.vim)
-
++ [Xuyuanp/nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
++ [hail2u/vim-css3-syntax'](https://github.com/hail2u/vim-css3-syntax)
++ [confirm-quit](https://github.com/vim-scripts/confirm-quit)
++ [nginx.vim](https://github.com/vim-scripts/nginx.vim)
++ [moll/vim-node](https://github.com/moll/vim-node)
++ [toppe/vim-speeddating](https://github.com/tpope/vim-speeddating)
++ [mhinz/vim-startify](https://github.com/mhinz/vim-startify)
++ [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)

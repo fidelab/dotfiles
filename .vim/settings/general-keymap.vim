@@ -30,9 +30,9 @@ autocmd FileType javascript map <buffer> <A-j> {
 
 " ================== Search ===================
 " toggle highlighting matches
-nnoremap <F3> :set hlsearch! <CR> 
+nnoremap <F3> :set hlsearch! <CR>
 " clear last search
-nnoremap <F4> :let @/ = "" <CR> 
+nnoremap <F4> :let @/ = "" <CR>
 map <F9> :nohlsearch <CR>
 map <F8> :let @/='\<<C-R>=expand("<cword>")<CR>\>'<CR>:set hls<CR>
 map <2-LeftMouse> :let @/='\<<C-R>=expand("<cword>")<CR>\>'<CR>:set hls<CR>
@@ -67,3 +67,9 @@ nmap <silent> ,vr :so ~/.vim/vimrc<CR>
 " ==================== Add carriage return after brackets ======
 imap <C-Return> <CR><CR><C-o>k<C-t>
 "inoremap {<CR> {<CR>}<C-o>O
+
+" ================== add ctrl-c ctrl-p support ==========
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <ESC>"+pa

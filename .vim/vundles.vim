@@ -123,6 +123,8 @@ Plugin 'tpope/vim-speeddating'
 Plugin 'mhinz/vim-startify'
 " adds filetype glyphs (icons) to other plugins such as NERDTree, vim-airline, CtrlP, powerline, unite, lightline.vim, vim-startify, vimfiler, and flagship.
 Plugin 'ryanoasis/vim-devicons'
+" Pasting in Vim with indentation adjusted to destination context
+Plugin 'sickill/vim-pasta'
 
 call vundle#end()
 filetype plugin indent on

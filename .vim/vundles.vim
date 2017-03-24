@@ -125,6 +125,8 @@ Plugin 'mhinz/vim-startify'
 Plugin 'ryanoasis/vim-devicons'
 " Pasting in Vim with indentation adjusted to destination context
 Plugin 'sickill/vim-pasta'
+" Syntax file and other settings for TypeScript
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()
 filetype plugin indent on

@@ -127,6 +127,10 @@ Plugin 'ryanoasis/vim-devicons'
 Plugin 'sickill/vim-pasta'
 " Syntax file and other settings for TypeScript
 Plugin 'leafgarland/typescript-vim'
+" A filetype plugin for VIM to help edit XML files
+Plugin 'sukima/xmledit'
+" A Vim plugin that always highlights the enclosing html/xml tags
+Plugin 'valloric/matchtagalways'
 
 call vundle#end()
 filetype plugin indent on

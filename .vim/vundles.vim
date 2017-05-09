@@ -44,7 +44,7 @@ Plugin 'terryma/vim-multiple-cursors'
 " Vim plugin for the Perl module / CLI script 'ack'
 Plugin 'mileszs/ack.vim'
 " NERDtree + ack.vim
-Plugin 'tyok/nerdtree-ack'
+"Plugin 'tyok/nerdtree-ack'
 " Vim motions on speed!
 Plugin 'Lokaltog/vim-easymotion'
 " A parser for a condensed HTML format
@@ -60,19 +60,19 @@ Plugin 'garbas/vim-snipmate'
 " vim-snipmate default snippets
 Plugin 'honza/vim-snippets'
 " displays tags in a window, ordered by scope
-Plugin 'majutsushi/tagbar'
+"Plugin 'majutsushi/tagbar'
 " Ctags-like tag generator for CoffeeScript
-Plugin 'lukaszkorecki/CoffeeTags'
+"Plugin 'lukaszkorecki/CoffeeTags'
 " Syntax checking hacks for vim
 Plugin 'scrooloose/syntastic'
 " Lightweight, customizable and functional Vim plugin for JSHint integration.
-Plugin 'Shutnik/jshint2.vim'
+"Plugin 'Shutnik/jshint2.vim'
 " HTML5 omnicomplete and syntax
 Plugin 'othree/html5.vim'
 " Vim/Ruby Configuration Files
-Plugin 'vim-ruby/vim-ruby'
+"Plugin 'vim-ruby/vim-ruby'
 " Ruby on Rails power tools
-Plugin 'tpope/vim-rails'
+"Plugin 'tpope/vim-rails'
 " Vastly improved Javascript indentation and syntax support in Vim.
 Plugin 'pangloss/vim-javascript'
 " CoffeeScript support for vim
@@ -100,11 +100,11 @@ Plugin 'xolox/vim-misc'
 " Extended session management for vim
 Plugin 'xolox/vim-session'
 " An Interface to WEB APIs
-Plugin 'mattn/webapi-vim'
+"Plugin 'mattn/webapi-vim'
 "This is a vimscript for creating gists
-Plugin 'mattn/gist-vim'
+"Plugin 'mattn/gist-vim'
 " Ag can be used as a replacement for 153% of the uses of ack
-Plugin 'rking/ag.vim'
+"Plugin 'rking/ag.vim' DEPRECATED
 " A vim plugin that simplifies the transition between multiline and single-line code
 Plugin 'AndrewRadev/splitjoin.vim'
 " plugin of NERDTree showing git status flags
@@ -126,11 +126,11 @@ Plugin 'ryanoasis/vim-devicons'
 " Pasting in Vim with indentation adjusted to destination context
 Plugin 'sickill/vim-pasta'
 " Syntax file and other settings for TypeScript
-Plugin 'leafgarland/typescript-vim'
+"Plugin 'leafgarland/typescript-vim'
 " A filetype plugin for VIM to help edit XML files
-Plugin 'sukima/xmledit'
+"Plugin 'sukima/xmledit'
 " A Vim plugin that always highlights the enclosing html/xml tags
-Plugin 'valloric/matchtagalways'
+"Plugin 'valloric/matchtagalways'
 
 call vundle#end()
 filetype plugin indent on

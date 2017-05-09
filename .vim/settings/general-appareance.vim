@@ -1,5 +1,4 @@
-" Make it beautiful - colors and fonts
-
+" ============= Make it beautiful - colors and fonts
 if has("gui_running")
   colors desert
   au GUIEnter * winpos 0 0
@@ -10,6 +9,8 @@ endif
 
 " =============== THEME =================
 syntax enable
+let g:solarized_termtrans=1
+"let g:solarized_termcolors=256
 colorscheme solarized
 set background=dark
 

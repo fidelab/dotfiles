@@ -131,6 +131,8 @@ Plugin 'sickill/vim-pasta'
 "Plugin 'sukima/xmledit'
 " A Vim plugin that always highlights the enclosing html/xml tags
 "Plugin 'valloric/matchtagalways'
+"plugin performing project-wide async search and replace, similar to SublimeText, Atom et al.
+Plugin 'eugen0329/vim-esearch'
 
 call vundle#end()
 filetype plugin indent on

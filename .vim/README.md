@@ -38,22 +38,14 @@ https://github.com/ryanoasis/nerd-fonts#option-1-install-script
 2. Ensure you have the line `filetype plugin on` in your `.vimrc`
 3. Restart vim or run `:so ~/.vim/vimrc`
 
-#### youAutocompleteMe (not used by default)
-_if you want to use it, uncomment line `Plugin 'Valloric/YouCompleteMe` on `.vimrc` and comment line `Plugin 'ervandew/supertab'`_
-
-**1.** Ensure that your version of Vim is at least 7.3.584 and that it has support for python2 scripting.
-
-**2.** `sudo apt-get install cmake` and `sudo apt-get install python-dev`
-
-**3.**
-
-    > cd ~
-    > mkdir ycm_build
-    > cd ycm_build
-    > cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
-    > make ycm_support_libs
-
-**4.** All done!
+#### youcompletee
+1. Ensure that your version of Vim is at least 7.4.143 and with Python 2 or Python 3 support.
+2. Install YouCompleteMe with Vundle.
+3. `sudo apt-get install build-essential cmake`
+4. `sudo apt-get install python-dev python3-dev`
+5. `cd ~/.vim/bundle/youcompleteme`
+6. `./install.py --clang-completer --tern-completer`
+7. All done!
 
 ## Updating plugins
 
@@ -78,7 +70,7 @@ Check plugins section on `vundles.vim` file for an extended list and a little ex
 + [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
 + [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
 + [jistr/vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs)
-+ [Valloric/YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
++ [valloric/youcompleteme](https://github.com/Valloric/YouCompleteMe)
 + [ervandew/supertab](https://github.com/ervandew/supertab)
 + [mbbill/VimExplorer](https://github.com/mbbill/VimExplorer)
 + [ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)

@@ -133,6 +133,8 @@ Plugin 'sickill/vim-pasta'
 "Plugin 'valloric/matchtagalways'
 "plugin performing project-wide async search and replace, similar to SublimeText, Atom et al.
 Plugin 'eugen0329/vim-esearch'
+"very fast color keyword highlighter 
+Plugin 'ap/vim-css-color'
 
 call vundle#end()
 filetype plugin indent on

@@ -133,8 +133,10 @@ Plugin 'sickill/vim-pasta'
 "Plugin 'valloric/matchtagalways'
 "plugin performing project-wide async search and replace, similar to SublimeText, Atom et al.
 Plugin 'eugen0329/vim-esearch'
-"very fast color keyword highlighter 
+"very fast color keyword highlighter
 Plugin 'ap/vim-css-color'
+" Provides database access to many DBMS (Oracle, Sybase, Microsoft, MySQL, DBI,..)
+Plugin 'dbext.vim'
 
 call vundle#end()
 filetype plugin indent on

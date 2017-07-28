@@ -137,6 +137,8 @@ Plugin 'eugen0329/vim-esearch'
 Plugin 'ap/vim-css-color'
 " Provides database access to many DBMS (Oracle, Sybase, Microsoft, MySQL, DBI,..)
 Plugin 'dbext.vim'
+" Extra syntax and highlight for nerdtree files
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 call vundle#end()
 filetype plugin indent on

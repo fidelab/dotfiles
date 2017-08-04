@@ -22,6 +22,7 @@ let g:syntastic_warning_symbol='⚠'
 let g:syntastic_style_warning_symbol='⚠'
 
 let g:syntastic_javascript_checkers = ['eslint']
+"let g:syntastic_javascript_eslint_exec = 'eslint_d'
 
 let g:syntastic_coffee_coffeelint_args = "--csv --file ~/.vim/syntax/coffeelint.json"
 

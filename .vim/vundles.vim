@@ -21,7 +21,7 @@ Plugin 'scrooloose/nerdtree'
 " NERDTree and tabs together in Vim, painlessly
 Plugin 'jistr/vim-nerdtree-tabs'
 " Is a fast, as-you-type, fuzzy-search code completion engine
-Plugin 'valloric/youcompleteme'
+"Plugin 'valloric/youcompleteme'
 " Perform all your vim insert mode completions with Tab
 Plugin 'ervandew/supertab'
 " the File Manager within Vim!
@@ -139,6 +139,8 @@ Plugin 'ap/vim-css-color'
 Plugin 'dbext.vim'
 " Extra syntax and highlight for nerdtree files
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
+" Next generation completion framework after neocomplcache
+Plugin 'shougo/neocomplete.vim'
 
 call vundle#end()
 filetype plugin indent on

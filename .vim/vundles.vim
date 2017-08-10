@@ -138,7 +138,8 @@ Plugin 'ap/vim-css-color'
 " Provides database access to many DBMS (Oracle, Sybase, Microsoft, MySQL, DBI,..)
 Plugin 'dbext.vim'
 " Extra syntax and highlight for nerdtree files
-Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plugin 'tiagofumo/vim-nerdtree-syntax-highlight' DISABLED, LAGS WHEN
+"LOADING NERDTREE
 " Next generation completion framework after neocomplcache
 Plugin 'shougo/neocomplete.vim'
 

@@ -36,6 +36,8 @@
   autocorrect = 1
 
 [alias]
+  alias = "!git config -l | sed -n 's/^alias\\.//p'"
+
   # View the current working tree status
   s = status
   st = status

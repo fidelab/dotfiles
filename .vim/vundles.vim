@@ -77,7 +77,7 @@ Plugin 'othree/html5.vim'
 Plugin 'pangloss/vim-javascript'
 " CoffeeScript support for vim
 Plugin 'kchmck/vim-coffee-script'
-" Vim Jade template engine syntax highlighting and indention
+" Vim Jade/pug template engine syntax highlighting and indention
 Plugin 'digitaltoad/vim-jade'
 " vim syntax for LESS (dynamic CSS)
 Plugin 'groenewege/vim-less'

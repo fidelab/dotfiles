@@ -5,5 +5,6 @@
     "no-param-reassign": ["error", { "props": false }],
     "no-underscore-dangle": ["error", { "allow": ["_id"] }],
     "prefer-destructuring": "off",
+    "import/no-unresolved": ["error", { "ignore": ['\.coffee$'] }],
   }
 }

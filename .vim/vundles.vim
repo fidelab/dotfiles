@@ -78,7 +78,7 @@ Plugin 'pangloss/vim-javascript'
 " CoffeeScript support for vim
 Plugin 'kchmck/vim-coffee-script'
 " Vim Jade/pug template engine syntax highlighting and indention
-Plugin 'digitaltoad/vim-jade'
+Plugin 'digitaltoad/vim-pug'
 " vim syntax for LESS (dynamic CSS)
 Plugin 'groenewege/vim-less'
 " shows a git diff in the gutter (sign column) and stages/reverts hunks.

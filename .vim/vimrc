@@ -118,3 +118,6 @@ set colorcolumn=100
   "autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#111111
   "autocmd BufEnter * match OverLength /\%100v.*/
 "augroup END
+
+" FIX PERFORMANCE
+set re=1

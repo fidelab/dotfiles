@@ -30,7 +30,7 @@ Plugin 'mbbill/VimExplorer'
 "Plugin 'kien/ctrlp.vim' DEPRECATED
 Plugin 'ctrlpvim/ctrlp.vim'
 " Replace a pattern across multiple files interactively
-Plugin 'vim-scripts/greplace.vim'
+"Plugin 'vim-scripts/greplace.vim'
 " Vim plugin for intensely orgasmic commenting
 Plugin 'scrooloose/nerdcommenter'
 " enable repeating supported plugin maps with '.'
@@ -42,7 +42,7 @@ Plugin 'godlygeek/tabular'
 " True Sublime Text style multiple selections for Vim
 Plugin 'terryma/vim-multiple-cursors'
 " Vim plugin for the Perl module / CLI script 'ack'
-Plugin 'mileszs/ack.vim'
+"Plugin 'mileszs/ack.vim'
 " NERDtree + ack.vim
 "Plugin 'tyok/nerdtree-ack'
 " Vim motions on speed!
@@ -55,10 +55,10 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 " Some utility functions for VIM (another plugin requires)
 Plugin 'tomtom/tlib_vim'
-"  implements some of TextMate's snippets features in Vim
-Plugin 'garbas/vim-snipmate'
+" implements some of TextMate's snippets features in Vim
+"Plugin 'garbas/vim-snipmate'
 " vim-snipmate default snippets
-Plugin 'honza/vim-snippets'
+"Plugin 'honza/vim-snippets'
 " displays tags in a window, ordered by scope
 "Plugin 'majutsushi/tagbar'
 " Ctags-like tag generator for CoffeeScript
@@ -78,7 +78,7 @@ Plugin 'pangloss/vim-javascript'
 " CoffeeScript support for vim
 Plugin 'kchmck/vim-coffee-script'
 " Vim Jade/pug template engine syntax highlighting and indention
-Plugin 'digitaltoad/vim-pug'
+"Plugin 'digitaltoad/vim-pug'
 " vim syntax for LESS (dynamic CSS)
 Plugin 'groenewege/vim-less'
 " shows a git diff in the gutter (sign column) and stages/reverts hunks.
@@ -120,7 +120,7 @@ Plugin 'moll/vim-node'
 " use CTRL-A/CTRL-X to increment dates, times, and more
 Plugin 'tpope/vim-speeddating'
 " This plugin provides a start screen for Vim
-Plugin 'mhinz/vim-startify'
+"Plugin 'mhinz/vim-startify'
 " adds filetype glyphs (icons) to other plugins such as NERDTree, vim-airline, CtrlP, powerline, unite, lightline.vim, vim-startify, vimfiler, and flagship.
 Plugin 'ryanoasis/vim-devicons'
 " Pasting in Vim with indentation adjusted to destination context
@@ -136,10 +136,9 @@ Plugin 'eugen0329/vim-esearch'
 "very fast color keyword highlighter
 Plugin 'skammer/vim-css-color'
 " Provides database access to many DBMS (Oracle, Sybase, Microsoft, MySQL, DBI,..)
-Plugin 'dbext.vim'
+"Plugin 'dbext.vim'
 " Extra syntax and highlight for nerdtree files
-"Plugin 'tiagofumo/vim-nerdtree-syntax-highlight' DISABLED, LAGS WHEN
-"LOADING NERDTREE
+"Plugin 'tiagofumo/vim-nerdtree-syntax-highlight' DISABLED, LAGS WHEN LOADING NERDTREE
 " Next generation completion framework after neocomplcache
 Plugin 'shougo/neocomplete.vim'
 

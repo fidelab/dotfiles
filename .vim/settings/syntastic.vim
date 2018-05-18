@@ -24,9 +24,5 @@ let g:syntastic_style_warning_symbol='⚠'
 let g:syntastic_javascript_checkers = ['eslint']
 "let g:syntastic_javascript_eslint_exec = 'eslint_d'
 
-let g:syntastic_coffee_coffeelint_args = "--csv --file ~/.vim/syntax/coffeelint.json"
-
-let jshint2_read = 0
-let jshint2_save = 0
-
-set runtimepath+=~/.vim/bundle/jshint2.vim/
+let syntastic_coffee_checkers = []
+"let g:syntastic_coffee_coffeelint_args = '--csv --file ~/.vim/syntax/coffeelint.json'

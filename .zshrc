@@ -82,33 +82,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
 
+
+# vim
 export EDITOR='gvim'
 alias gvim="gvim 2>/dev/null"
 
- # oracle library
+# oracle library
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/oracle/instantclient
 export OCI_LIB_DIR=/opt/oracle/instantclient
 export OCI_INC_DIR=/opt/oracle/instantclient/sdk/include
 export NLS_LANG=SPANISH_SPAIN.AL32UTF8
 
-#export PATH=$PATH:/opt/node-v4.4.6/bin
-#export PATH=$PATH:/opt/node-v4.4.6/node_modules/.bin
-
-mDecrypt() {
-  openssl smime -decrypt -binary -in "$1" -inform DER -out "$2" -inkey ~/.ssh/crypto
-}
-mAesEncrypt() {
-  openssl aes-256-cbc -in "$1" -out "$2"
-}
-mAesDecrypt() {
-  openssl aes-256-cbc -d -in "$1" -out "$2"
-}
-alias openssl-aes-encrypt="mAesEncrypt"
-alias openssl-aes-decrypt="mAesDecrypt"
-alias openssl-rsa-decrypt="mDecrypt"
-
+# NVM
 export NVM_DIR="/home/fidel/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 

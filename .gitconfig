@@ -98,3 +98,5 @@
 
 [diff]
   tool = meld
+[cola]
+	spellcheck = false

@@ -100,3 +100,4 @@
   tool = meld
 [cola]
 	spellcheck = false
+	savewindowsettings = true

@@ -5,9 +5,6 @@
 [github]
   user = fidelab
 
-[init]
-    templatedir = ~/.git_template
-
 [core]
   editor = vim
   # Treat spaces before tabs and all kinds of trailing whitespace as an error

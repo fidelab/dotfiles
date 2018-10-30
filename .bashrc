@@ -140,3 +140,5 @@ mAesDecrypt() {
 alias openssl-aes-encrypt="mAesEncrypt"
 alias openssl-aes-decrypt="mAesDecrypt"
 alias openssl-rsa-decrypt="mDecrypt"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

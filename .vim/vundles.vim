@@ -141,6 +141,8 @@ Plugin 'skammer/vim-css-color'
 "Plugin 'tiagofumo/vim-nerdtree-syntax-highlight' DISABLED, LAGS WHEN LOADING NERDTREE
 " Next generation completion framework after neocomplcache
 Plugin 'shougo/neocomplete.vim'
+" fzf is a general-purpose command-line fuzzy finder
+Plugin 'junegunn/fzf'
 
 call vundle#end()
 filetype plugin indent on

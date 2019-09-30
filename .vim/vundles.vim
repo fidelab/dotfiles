@@ -134,7 +134,7 @@ Plugin 'sickill/vim-pasta'
 "plugin performing project-wide async search and replace, similar to SublimeText, Atom et al.
 Plugin 'eugen0329/vim-esearch'
 "very fast color keyword highlighter
-Plugin 'skammer/vim-css-color'
+"Plugin 'skammer/vim-css-color'
 " Provides database access to many DBMS (Oracle, Sybase, Microsoft, MySQL, DBI,..)
 "Plugin 'dbext.vim'
 " Extra syntax and highlight for nerdtree files
@@ -142,7 +142,7 @@ Plugin 'skammer/vim-css-color'
 " Next generation completion framework after neocomplcache
 Plugin 'shougo/neocomplete.vim'
 " fzf is a general-purpose command-line fuzzy finder
-Plugin 'junegunn/fzf'
+"Plugin 'junegunn/fzf'
 
 call vundle#end()
 filetype plugin indent on

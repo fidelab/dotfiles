@@ -93,7 +93,7 @@ Plugin 'ryanoasis/vim-devicons'
 " Pasting in Vim with indentation adjusted to destination context
 Plugin 'sickill/vim-pasta'
 " Syntax file and other settings for TypeScript
-"Plugin 'leafgarland/typescript-vim'
+Plugin 'leafgarland/typescript-vim'
 "plugin performing project-wide async search and replace, similar to SublimeText, Atom et al.
 Plugin 'eugen0329/vim-esearch'
 "very fast color keyword highlighter

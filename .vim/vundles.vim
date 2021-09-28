@@ -104,6 +104,8 @@ Plugin 'eugen0329/vim-esearch'
 Plugin 'shougo/neocomplete.vim'
 " fzf is a general-purpose command-line fuzzy finder
 "Plugin 'junegunn/fzf'
+" Find and fix problems in your JavaScript code.
+Plugin 'eslint/eslint'
 
 call vundle#end()
 filetype plugin indent on
